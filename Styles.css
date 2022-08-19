@@ -22,19 +22,33 @@ h1,h2,h3,h4,h5,p,button,a{
     justify-content: flex-start;
     padding: 23px;
     margin: 10px 0;
-   
 }
 
-.nav-anchors{
-    margin: 0 70px;
 
+.nav-center{
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 10px;
+    padding: 15px;
+    padding-right: 126px;
 }
-.nav-anchors a{
+
+
+.nav-anchors a {
+    text-decoration: none;
+    color: inherit;
     min-width: 80%;
     margin: 0 10px;
-    max-width: 1400px;
+    max-width: 1400px; 
     
 
+}
+.nav-anchors a:hover{
+   
+    outline-style:outset;
+    outline-offset: 5px;
+    outline-width:1px;
+    outline-color:black;
 }
 
 .nav-img{
