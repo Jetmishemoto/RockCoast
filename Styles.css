@@ -1,0 +1,54 @@
+html, body {
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,p,button,a{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.mainbox{
+    background-color: black;
+    
+}
+
+
+
+.navbar{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 23px;
+    margin: 10px 0;
+   
+}
+
+.nav-anchors{
+    margin: 0 70px;
+
+}
+.nav-anchors a{
+    min-width: 80%;
+    margin: 0 10px;
+    max-width: 1400px;
+    
+
+}
+
+.nav-img{
+    align-items: center;
+
+}
+
+.sub-body{
+
+    background-color: azure;
+    padding: 303px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    
+   
+}
