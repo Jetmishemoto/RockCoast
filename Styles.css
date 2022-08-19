@@ -16,7 +16,7 @@ h1,h2,h3,h4,h5,p,button,a{
 
 
 .navbar{
-    background-color: gray;
+    background-color: rgb(117, 134, 146);
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -45,10 +45,11 @@ h1,h2,h3,h4,h5,p,button,a{
 }
 .nav-anchors a:hover{
    
-    outline-style:outset;
+    outline-style:solid;
     outline-offset: 5px;
-    outline-width:1px;
-    outline-color:black;
+    border-radius: 2px;
+    outline-width:0.2px;
+    outline-color:gray;
 }
 
 .nav-img{
