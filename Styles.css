@@ -63,7 +63,7 @@ h1,h2,h3,h4,h5,p,button,a{
     display: grid;
     border-radius: 30px;
     grid-template-rows: auto;
-    height: 700px;
+    height: 800px;
 }
     
    
@@ -84,14 +84,21 @@ h1,h2,h3,h4,h5,p,button,a{
     grid-template-columns: repeat(3,1fr);
 }
 
-.inner-box{
+.innerbox-title{
+    font-size: larger;
+    text-align: -webkit-center;
+    font-weight: bold;
 
+}
+
+.inner-box {
+    font-size:medium;
     width: 390px;
     border-radius: 15px;
     padding: 50px 10px;
     text-align: center;
     width: 300px;
-    height: 230px;
+    height: 350px;
     background-color: aqua;
 
 }
