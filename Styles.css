@@ -16,12 +16,12 @@ h1,h2,h3,h4,h5,p,button,a{
 
 
 .navbar{
-    background-color: rgb(117, 134, 146);
+    background-color: #708090;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     padding: 23px;
-    margin: 10px 0;
+    margin: 22px  0;
 }
 
 
@@ -71,8 +71,28 @@ h1,h2,h3,h4,h5,p,button,a{
 
 
 .sub-body-heading{
-    justify-content: flex-start;
+    font-style:oblique;
+    color: #da8040;
+   padding-left: 10px;
+   letter-spacing: .8rem;
 
+}
+
+.sub-body-P{
+ 
+    
+   padding-left: 10px;
+   
+
+}
+
+
+.sub-body-heading2{
+    font-style:oblique;
+    color: #da8040;
+   padding-left: 10px;
+   letter-spacing: .8rem;
+ 
 }
 
 
@@ -93,12 +113,13 @@ h1,h2,h3,h4,h5,p,button,a{
 
 .inner-box {
     font-size:medium;
+    color: white;
     width: 390px;
     border-radius: 15px;
     padding: 50px 10px;
     text-align: center;
     width: 300px;
     height: 350px;
-    background-color: aqua;
+    background-color: #da8040;
 
 }
