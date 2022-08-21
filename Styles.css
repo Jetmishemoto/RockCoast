@@ -8,7 +8,7 @@ h1,h2,h3,h4,h5,p,button,a{
 }
 hr{
     height: 1px;
-    background-color: #ff8d40;
+    background-color: #c55d17;
     border: none;
 }
 
@@ -25,15 +25,15 @@ hr{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    
     margin: 22px  0;
+    margin-left: -32px;
 }
 
 
 .nav-center{
     background-color: white;
     border-radius: 5px;
-    margin: 0 10px;
+    margin: 0 -6px;
     padding: 15px;
     padding-right: 126px;
 }
