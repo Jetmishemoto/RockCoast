@@ -6,6 +6,11 @@ h1,h2,h3,h4,h5,p,button,a{
     font-family: Arial, Helvetica, sans-serif;
 
 }
+hr{
+    height: 1px;
+    background-color: #ff8d40;
+    border: none;
+}
 
 
 .mainbox{
@@ -72,7 +77,7 @@ h1,h2,h3,h4,h5,p,button,a{
 
 .sub-body-heading{
     font-style:oblique;
-    color: #da8040;
+    color:  #ff8d40;
    padding-left: 10px;
    letter-spacing: .8rem;
 
@@ -89,7 +94,7 @@ h1,h2,h3,h4,h5,p,button,a{
 
 .sub-body-heading2{
     font-style:oblique;
-    color: #da8040;
+    color:  #ff8d40;
    padding-left: 10px;
    letter-spacing: .8rem;
  
@@ -104,6 +109,30 @@ h1,h2,h3,h4,h5,p,button,a{
     grid-template-columns: repeat(3,1fr);
 }
 
+.productinfo-grid-container{
+    display: grid;
+    grid-template-areas: 'productinfo-left center productinfo-right';
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 84px;
+    margin: 10px;
+  
+
+}
+
+.productinfo-left{
+    
+    grid-area: 'productinfo-right';
+}
+
+.productinfo-right{  
+    grid-area: 'productinfo-right';
+    
+}
+
+
+
+
+
 .innerbox-title{
     font-size: larger;
     text-align: -webkit-center;
@@ -114,12 +143,11 @@ h1,h2,h3,h4,h5,p,button,a{
 .inner-box {
     font-size:medium;
     color: white;
-    width: 390px;
     border-radius: 15px;
     padding: 50px 10px;
     text-align: center;
     width: 300px;
-    height: 350px;
-    background-color: #da8040;
+    height: 280px;
+    background-color: #ff8d40;
 
 }
