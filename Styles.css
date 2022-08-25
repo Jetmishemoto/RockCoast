@@ -48,6 +48,8 @@ hr{
     
 
 }
+
+
 .nav-anchors a:hover{
    
     outline-style:solid;
@@ -56,6 +58,8 @@ hr{
     outline-width:0.2px;
     outline-color:gray;
 }
+
+
 
 .nav-img{
     align-items: center;
@@ -151,3 +155,31 @@ hr{
     background-color: #ff8d40;
 
 }
+
+/*--------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1024px) { 
+
+    .products-list{
+        grid-template-columns: repeat(1,100%);
+
+    }
+    .sub-body{
+        height: 1692px;
+    }
+
+    .nav-anchors a:hover{
+   
+        outline-style:solid;
+        outline-offset: 1px;
+        border-radius: 1px;
+        outline-width:0.2px;
+        outline-color:gray;
+    }
+
+   
+    
+}
+
+
+
