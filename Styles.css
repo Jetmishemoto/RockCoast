@@ -33,7 +33,7 @@ hr{
 .nav-center{
     background-color: white;
     border-radius: 5px;
-    margin: 0 -6px;
+    margin: 0 -7px;
     padding: 15px;
     padding-right: 126px;
 }
@@ -123,10 +123,6 @@ hr{
 
 }
 
-.productinfo-left{
-    
-    grid-area: 'productinfo-right';
-}
 
 .productinfo-right{  
     grid-area: 'productinfo-right';
@@ -177,6 +173,13 @@ hr{
         outline-color:gray;
     }
 
+    .firstlogo{
+        display: none;
+    }
+    
+    div.nav-img::before{
+        content: url(img/Srockcost_Logo.png); 
+    }
    
     
 }
